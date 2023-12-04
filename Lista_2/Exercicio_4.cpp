@@ -10,10 +10,7 @@ int main(){
     for(i=0;i<10;i++){
         cout<<"Digite um numero: ";
         cin>>vet[i];
-
         system("cls");
-
-
         
     }
 
@@ -26,8 +23,6 @@ int main(){
         vetinvert[i] = vet[10-i-1];
         cout<<"O vetor invertido : " <<vetinvert[i]<<"\n";
     }
-
-
 
     return 0;
 }
